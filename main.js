@@ -1,10 +1,7 @@
 var i,j;
-var alpha;
-for(i=1;i<=5;i++){
-    alpha=65;
-    for(j=1;j<=i;j++){
-        document.write(String.fromCharCode(alpha));
-        alpha++;
+for(i=65;i<=69;i++){
+    for(j=65;j<=i;j++){
+        document.write(String.fromCharCode(j));
     }
     document.write("<br>");
 }
