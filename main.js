@@ -1,9 +1,10 @@
 var i,j;
-var alphabet=['A','B','C','D','E'];
-for(i=0;i<5;i++){
-    for(j=0;j<=i;j++){
-        document.write(alphabet[j]);
-        
+var alpha;
+for(i=1;i<=5;i++){
+    alpha=65;
+    for(j=1;j<=i;j++){
+        document.write(String.fromCharCode(alpha));
+        alpha++;
     }
     document.write("<br>");
 }
